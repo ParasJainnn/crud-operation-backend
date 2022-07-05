@@ -4,7 +4,7 @@ var router = express.Router();
 
 var model = require('../models/product-model');
 
-router.get('/getAll', function(req, res) {
+router.get('/', function(req, res) {
     model.getProducts(function(err, result) {
         if(err) {
             res.json(err)

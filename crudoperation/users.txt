@@ -1,0 +1,12 @@
+http://localhost:3300/product  ...........to get the all product 
+
+http://localhost:3300/product/:id............to get the specific product by id
+
+http://localhost:3300/product/add............to add the specific product by data object
+http://localhost:3300/product/delete/:id............to delete the specific product by id
+http://localhost:3300/product/update............to get the specific product by  data oject 
+
+
+
+
+
